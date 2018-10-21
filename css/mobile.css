@@ -1,6 +1,9 @@
 @media screen and (max-width: 768px){
 
 /*COMEÇO BOTAO HAMBURGUER*/
+body {
+    overflow-x: hidden;
+}
 .sidenav {
     height: 200%;
     width: 0;
