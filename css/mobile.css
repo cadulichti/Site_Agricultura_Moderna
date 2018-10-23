@@ -53,7 +53,7 @@ body {
     
     
     body{
-        overflow-x: hidde;
+        overflow-x: hidden;
     }
     .header-menu {
         display:block;
@@ -140,6 +140,11 @@ body {
         align-items: center;
         justify-content: center;
         width: 100%;
+        flex-wrap: nowrap;
+    }
+    .semeacao-big,.agricultura-big,.empregos-big {
+        width: 100%;
+        
     }
     .linhas-bg {
         display:flex;
