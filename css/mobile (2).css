@@ -1,0 +1,282 @@
+@media screen and (max-width: 768px){
+
+/*COMEÇO BOTAO HAMBURGUER*/
+body {
+    overflow-x: hidden;
+}
+.sidenav {
+    height: 200%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.sidenav a {
+    padding:10px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ccc;
+    display: block;
+    transition: 0.3s;
+    margin: 15px;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+    color: #FFF;
+}
+    .item-linha{
+        display: none;
+    }
+/*FIM BOTAO HAMBURGUER*/
+    
+    
+    
+    
+    
+    
+    body{
+        overflow-x: hidden;
+    }
+    .header-menu {
+        display:block;
+    }
+    .menu{
+        display: none;
+    }
+    .header{
+        height: 500px;
+        width: 100%;
+    }
+    .introducao h1 {
+        font-size: 42px;
+    }
+    .intro-img {
+        width: 300px;;
+        height: 150px;
+        position: absolute;
+        top: 200px;
+    }
+    .introducao p {
+        font-size: 18px;
+        width: 280px;
+        margin-top: -60px;
+    }
+    .introducao a {
+        width: 130px;
+        height: 40px;
+        font-size: 12px;
+        text-transform: uppercase;
+        margin-top: -142px;
+    }
+    .posicao-notavel {
+        width: 100%;
+        height: 1200px;
+    }
+    .posicao-notavel h2 {
+        font-size: 24px;
+        text-align: center;
+        margin-top: 34px;
+    }
+    .posicao-notavel h2:after{
+        content: "";
+        display: block;
+        margin: 0 auto;
+        background: #fff;
+        width: 60px;
+        height: 2px;
+    }
+    .posicao-notavel h3{
+        font-size: 18px;
+        display: none;
+    }
+    .posicao-notavel p{
+        font-size: 14px;
+        width: 350px;
+        margin-top: 20px;
+    }
+    .posicao-notavel a {
+        width: 130px;
+        height: 40px;
+        font-size: 12px;
+        text-transform: uppercase;
+        margin-top: 5px;
+    }
+    .cereais,.vegetais ,.frutas{
+        width: 300px;
+        height: 200px;
+        
+    }
+    .cereais h3,.vegetais h3,.frutas h3{
+        font-size: 16px;
+    }
+    .posicao {
+        margin-top: -425px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .agricultura {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        flex-wrap: nowrap;
+    }
+    .semeacao-big,.agricultura-big,.empregos-big {
+        width: 100%;
+    }
+    .linhas-bg {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .texto{
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sustentabilidade{
+        position: absolute;
+        top: 2750px;
+        left: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .agilidade{
+        position: absolute;
+        top:2870px;
+        left: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .rentabilidade{
+        position: absolute;
+        top:3000px;
+        left: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .linhas-bg a {
+        width: 130px;
+        height: 40px;
+        font-size: 12px;
+        text-transform: uppercase;
+        margin-top: 315px;
+    }
+    .linhas-img {
+        display: none;
+    }
+    .quebra-bg {
+        height: 300px;
+        margin-top: 32px
+    }
+    .quebra-bg h2 {
+        font-size: 16px;
+        width: 300px;
+    }
+    .quebra-bg h2:after{
+        content: "";
+        display: block;
+        margin: 0 auto;
+        background: #fff;
+        width: 50px;
+        height: 3px;
+    }
+    .quebra-bg h2:before{
+        content: "";
+        display: block;
+        margin: 0 auto;
+        background: #fff;
+        width: 50px;
+        height: 3px;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 480px;
+    }
+    .end,.cont {
+        text-align: center;
+    }
+    .end h3,.cont h3{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .end h3:after,.cont h3:after{
+        content: "";
+        display: block;
+        margin: 0 auto;
+        background: #fff;
+        width: 50px;
+        height: 3px;
+    }
+    .cont h3 {
+        margin-top: 20px;
+    }
+    .end p,.cont p {
+        font-size: 14px;
+        width: 300px;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .nov{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+    }
+    .nov h3 {
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 30px;
+    }
+    .footer input {
+        width: 300px;
+        height: 40px;
+        margin-top: 10px;
+    }
+    .footer a {
+        width: 300px;
+        height: 40px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .rodape p {
+        font-size: 12px;
+    }
+    
+    
+}
